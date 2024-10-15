@@ -1,0 +1,89 @@
+.texto-header {
+    text-align: center;
+  }
+  .contenedor-doble {
+    display: flex;
+    justify-content: center;
+  }
+  .imagen-perfil {
+    height: 100px;
+    width: 100px;
+  }
+  .input-tarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 15px;
+    border: 1px solid #ccc;
+  }
+  .boton-tarea {
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .boton-tarea:hover {
+    background-color: #555;
+  }
+  .lista-tareas {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabla-std {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  .tabla-row {
+    border: 1px solid #ccc;
+  }
+  .tabla-row:hover {
+    background-color: #5d5757;
+  }
+  .tabla-cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  .logo {
+    width: 120px;
+    height: 70px;
+    margin-left: 10px;
+  }
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #5d79f8;
+}
+nav a {
+  display: inline-block;
+  margin-right: 10px; /* Espacio entre iconos */
+}
+nav img {
+  width: 50px;
+  height: 50px;
+}
+.imagenes-galeria {
+  border: 2px solid #ddd;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.imagenesG-ordenadas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #5d79f8;
+}
