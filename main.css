@@ -49,6 +49,9 @@
     text-align: center;
     border: 1px solid #ccc;
   }
+  body {
+    background-color: #ccc;
+  }
   .logo {
     width: 120px;
     height: 70px;
@@ -63,7 +66,7 @@
 }
 nav a {
   display: inline-block;
-  margin-right: 10px; /* Espacio entre iconos */
+  margin-right: 10px;
 }
 nav img {
   width: 50px;
@@ -71,8 +74,8 @@ nav img {
 }
 .imagenes-galeria {
   border: 2px solid #ddd;
-  width: 200px;
-  height: 200px;
+  width: 288px;
+  height: 288px;
   margin: 10px;
 }
 .imagenesG-ordenadas {
